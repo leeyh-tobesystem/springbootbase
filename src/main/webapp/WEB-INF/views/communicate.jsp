@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -10,10 +9,9 @@
 
     <script src="/jquery-2.1.4.min.js"></script>
     <script src="/index.js"></script>
-
-<%--    <link rel="stylesheet" href="./index.css">--%>
-<%--    <script src="./jquery-2.1.4.min.js"></script>--%>
-<%--    <script src="./index.js"></script>--%>
+    <%--    <link rel="stylesheet" href="./index.css">--%>
+    <%--    <script src="./jquery-2.1.4.min.js"></script>--%>
+    <%--    <script src="./index.js"></script>--%>
 
     <title>Title</title>
 </head>
@@ -21,12 +19,12 @@
 <div class="container">
 
     <ul class="tabs">
-        <li class="tab-link current" data-tab="tab-1">설정페이지</li>
-        <li class="tab-link" data-tab="tab-2">통신체크</li>
+        <li class="tab-link" data-tab="tab-1">설정페이지</li>
+        <li class="tab-link current" data-tab="tab-2">통신체크</li>
         <li class="tab-link" data-tab="tab-3">시리얼체크</li>
     </ul>
 
-    <div id="tab-1" class="tab-content current">
+    <div id="tab-1" class="tab-content">
         <div class="sized_box" style="height: 10%"></div>
         <div>
             <div class="input-header">IP</div>
@@ -68,7 +66,7 @@
             <button class="button-common" onclick="reboot_action()">재시작</button>
         </div>
     </div>
-    <div id="tab-2" class="tab-content">
+    <div id="tab-2" class="tab-content current">
         <div class="sized_box" style="height: 10%"></div>
         <textarea id="communicate_log" style="width: 100%;resize:none;height:60%">통신 체크 contents</textarea>
         <div class="sized_box" style="height: 10%"></div>

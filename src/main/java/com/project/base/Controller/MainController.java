@@ -11,9 +11,18 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class MainController {
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/index")
     public String index(HttpServletRequest req, HttpServletResponse res) {
-        System.out.println("test");
         return "index";
+    }
+
+    @RequestMapping(value = "/communicate")
+    public String communicate(HttpServletRequest req, HttpServletResponse res) {
+        return "communicate";
+    }
+
+    @RequestMapping(value = "/serial")
+    public String serial(HttpServletRequest req, HttpServletResponse res) {
+        return "serial";
     }
 }

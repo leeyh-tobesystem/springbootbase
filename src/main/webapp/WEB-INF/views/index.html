@@ -1,19 +1,11 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="/index.css" />
 
-    <script src="/jquery-2.1.4.min.js"></script>
-    <script src="/index.js"></script>
-
-<%--    <link rel="stylesheet" href="./index.css">--%>
-<%--    <script src="./jquery-2.1.4.min.js"></script>--%>
-<%--    <script src="./index.js"></script>--%>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./jquery-2.1.4.min.js"></script>
+    <script src="./index.js"></script>
 
     <title>Title</title>
 </head>
@@ -46,21 +38,18 @@
             <div class = "input-header">통신 포트</div>
             <input id="port" type="text" class="input-content" value="9000" />
         </div>
-        <div class="sized_box" style="height: 5%"></div>
         <div>
             <div class = "input-header">통신 장비</div>
-            <label class ="radio-label" id="label1"><input type="radio" id="opt1" name="device" class="radio-btn-big" value = "1" />1번항목</label>
-        </div>
-        <div style="margin-top: 10px;margin-bottom: 10px;">
-            <div class = "input-header" style="visibility: hidden">placeholder</div>
-            <label class ="radio-label" id="label2"><input type="radio" id="opt2" name="device" class="radio-btn-big" value = "2" />2번항목</label>
+            <select id="device" style="height: 30px;width: 50%;">
+                <option value = "1">1번항목</option>
+                <option value = "2">2번항목</option>
+                <option value = "3">3번항목</option>
+                <option value = "4">4번항목</option>
+                <option value = "5">5번항목</option>
+            </select>
         </div>
 
-        <div>
-            <div class = "input-header" style="visibility: hidden">placeholder</div>
-            <label class ="radio-label" id="label3"><input type="radio" id="opt3" name="device" class="radio-btn-big" value = "3" />3번항목</label>
-        </div>
-        <div class="sized_box" style="height: 10%"></div>
+        <div class="sized_box" style="height: 20%"></div>
 
         <div id="buttons" style="text-align: center">
             <button class="button-common" style="margin-right: 25px;" onclick="save_action()">저장</button>

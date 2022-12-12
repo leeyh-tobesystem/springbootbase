@@ -1,0 +1,155 @@
+
+body{
+    margin-top: 50px;
+    line-height: 1.6
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+ul.tabs li.tab-link {
+    font-size: 24px;
+}
+
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+    height: 85%;
+}
+
+.tab-content.current{
+    display: inherit;
+    border: 1px solid black;
+}
+
+.input-header {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    height: 32px;
+}
+
+.input-content {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+.button-common {
+    width: 25%;
+    height: 70px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-common:active {
+    background-color: #c4e3f3;
+    color: black;
+}
+.button-common:hover {
+    background-color: #c4e3f3;
+    color: black;
+}
+
+.button-clear {
+    width: 70%;
+    height: 70px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-clear:active {
+    background-color: #c4e3f3;
+    color: black;
+}
+.button-clear:hover {
+    background-color: #c4e3f3;
+    color: black;
+}
+
+.radio-label {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 3px 0;
+    width: 230px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.radio-btn-big {
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+}
+
+@media (max-width: 575px) {
+    .input-content {
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .radio-label {
+        width: 220px;
+    }
+
+    body{
+        margin-top: 20px;
+    }
+
+    ul.tabs li.tab-link {
+        font-size: 20px;
+    }
+
+    .button-common {
+        font-size: 20px;
+    }
+
+    .input-content {
+        width: 220px;
+        height: 30px;
+        text-align: center;
+    }
+}
