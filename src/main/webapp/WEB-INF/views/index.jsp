@@ -51,11 +51,10 @@
 
 
 </head>
-<style>
-</style>
+
 <script>
     $(document).ready(function() {
-        window.FontAwesomeConfig = { autoReplaceSvg: false };
+        // window.FontAwesomeConfig = { autoReplaceSvg: false };
 
 
         $("#jqGrid").jqGrid({
