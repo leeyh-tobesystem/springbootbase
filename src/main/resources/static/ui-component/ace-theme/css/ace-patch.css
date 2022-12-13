@@ -36,6 +36,7 @@ input[type=email], input[type=url], input[type=search], input[type=tel], input[t
 .ui-multiselect li span.ui-icon-arrowthick-2-n-s{top: 4px;}
 .ui-multiselect .count {font-weight: 100;}
 .ui-jqgrid .ui-jqgrid-pager .ui-pg-div span.ui-icon {background-image: none; color: black;}
+.ui-pg-div .ui-icon:hover{transform: scale(1.0);}
 
 .select2-search--dropdown .select2-search__field {padding: 0px !important;}
 .select2-search:before {font-size: 10px !important;top: 6px !important;}
@@ -315,28 +316,6 @@ input[type=email], input[type=url], input[type=search], input[type=tel], input[t
 /*    background-color: #000000;*/
 /*}*/
 
-/*.border_no_top{*/
-/*    border-top-style: none !important;*/
-
-/*}*/
-/*.border_no_bottom{*/
-/*    border-bottom-style: none !important;*/
-
-/*}*/
-
-/*.border_top {*/
-/*    border-top: 1px solid #cccccc !important;*/
-/*}*/
-/*.margin-bottom-3{*/
-/*    margin-bottom: 3px !important;*/
-/*}*/
-
-/*@media only screen and (min-width: 1200px){*/
-/*    .display_none {*/
-/*        display: none;*/
-/*    }}*/
-
-
 /*.border_top_modal {*/
 /*    color: #1d1d1d !important;*/
 /*    background-color: #f2f2f2 !important;*/
@@ -471,7 +450,6 @@ input[type=email], input[type=url], input[type=search], input[type=tel], input[t
 /*    font-size: 16px !important;*/
 /*}*/
 
-.ui-pg-div .ui-icon:hover{transform: scale(1.0);}
 
 /*.ui-tabs {padding:.0em;}*/
 /*.ui-tabs-nav {*/
@@ -522,8 +500,4 @@ input[type=email], input[type=url], input[type=search], input[type=tel], input[t
 /*    -webkit-box-shadow: none;*/
 /*    box-shadow: none;*/
 
-/*}*/
-
-/*.fav_disnone {*/
-/*    display: none !important;*/
 /*}*/

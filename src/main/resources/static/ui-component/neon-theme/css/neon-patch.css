@@ -1,0 +1,18 @@
+@font-face {
+    font-family:"NanumBarunGothic";
+    src:url("../../fonts/NanumBarunGothic.eot"); /* IE 9 호환성 보기 모드 대응 */
+    src:local("☺"),             /* local font 사용 방지. 생략 가능 */
+    url("../../fonts/NanumBarunGothic.eot?#iefix") format('embedded-opentype'), /* IE 6~8 */
+    url("../../fonts/NanumBarunGothic.woff") format('woff'); /* 표준 브라우저 */
+}
+
+* { font-family: "NanumBarunGothic", sans-serif;}
+
+
+.login-page .login-header {
+    padding: 80px 0;
+}
+
+.login-page .login-progressbar-indicator{
+    margin-top: 140px;
+}

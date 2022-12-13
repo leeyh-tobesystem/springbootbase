@@ -16,4 +16,9 @@ public class MainController {
     public String index(HttpServletRequest req, HttpServletResponse res) {
         return "index";
     }
+
+    @RequestMapping(value = "/login")
+    public String login(HttpServletRequest req, HttpServletResponse res) {
+        return "login";
+    }
 }

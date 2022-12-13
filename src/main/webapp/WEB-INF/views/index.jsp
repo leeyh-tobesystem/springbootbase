@@ -1,12 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
-<html>
+<!DOCTYPE html>
+<html lang="kr">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="description" content="base" />
+    <link rel="icon" href="#">
+    <link rel="shortcut icon" href="#">
     <title>index</title>
 
-    <link rel="shortcut icon" href="#">
-
-    <link rel="stylesheet" href="/ui-component/boot-strap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/ui-component/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/ui-component/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="/ui-component/jquery-ui/1.13.2/css/jquery-ui.min.css" />
     <link rel="stylesheet" href="/ui-component/jqGrid/4.7/plugins/css/ui.multiselect.css" />
@@ -29,9 +34,12 @@
     <script src="/ui-component/jquery/3.6.1/js/jquery.min.js"></script>
     <script src="/ui-component/jqGrid/4.7/js/i18n/grid.locale-kr.js"></script>
     <script src="/ui-component/jquery-ui/1.13.2/js/jquery-ui.min.js"></script>
+    <script src="/ui-component/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="/ui-component/jqGrid/4.7/plugins/js/ui.multiselect.js"></script>
     <script src="/ui-component/jqGrid/4.7/js/jquery.jqGrid.min.js"></script>
 
+    <script src="/ui-component/select2/4.0.13/js/i18n/ko.js"></script>
+    <script src="/ui-component/select2/4.0.13/js/select2.min.js"></script>
 
     <!-- ace settings handler -->
     <script src="/ui-component/ace-theme/js/ace-extra.min.js"></script>
@@ -40,8 +48,7 @@
     <script src="/ui-component/ace-theme/js/html5shiv.min.js"></script>
     <script src="/ui-component/ace-theme/js/respond.min.js"></script>
     <![endif]-->
-    <script src="/ui-component/select2/4.0.13/js/i18n/ko.js"></script>
-    <script src="/ui-component/select2/4.0.13/js/select2.min.js"></script>
+
 
 </head>
 <style>
@@ -82,7 +89,7 @@
         $("#jqGrid").jqGrid('navButtonAdd', '#jqGrid_pager', {
             caption: "열 조정",
             title: "열 조정",
-            buttonicon: "fa fa-list-alt bigger-110 column_chooser_icon",
+            buttonicon: "fa fa-wrench bigger-110 column_chooser_icon",
             onClickButton: function() {
                 $.extend(true, $.ui.multiselect, {
                     defaults: {searchable :false},
@@ -126,6 +133,7 @@
 <body>
     <%--font-awesome test--%>
 <%--    <i class="fa fa-user"></i>--%>
+
     <%--jqGrid test--%>
     <div style="width: 80%; padding: 20px;">
         <table id="jqGrid"></table>
