@@ -72,7 +72,7 @@
             pager: '#jqGrid_pager',
             rowNum: 100,
             rowList: [100, 200, 300, 400, 1000],
-            cmTemplate: { sortable: false },
+            // cmTemplate: { sortable: false },
             shrinkToFit: false,
             viewrecords: true,
             multiselect: true,
