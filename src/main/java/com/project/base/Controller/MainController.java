@@ -13,12 +13,18 @@ public class MainController {
 
 
     @RequestMapping(value = "/")
-    public String index(HttpServletRequest req, HttpServletResponse res) {
-        return "index";
+    public String main(HttpServletRequest req, HttpServletResponse res) {
+//        return "pages/index";
+        return "layout";
     }
 
     @RequestMapping(value = "/login")
     public String login(HttpServletRequest req, HttpServletResponse res) {
-        return "login";
+        return "login/login";
+    }
+
+    @RequestMapping(value = "/lockscreen")
+    public String lockscreen(HttpServletRequest req, HttpServletResponse res) {
+        return "login/lockscreen";
     }
 }

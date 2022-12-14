@@ -69,7 +69,7 @@
                         <div class="input-group-addon">
                             <i class="entypo-user"></i>
                         </div>
-                        <input type="text" class="form-control" name="username" id="neon-theme_login_id" placeholder="ID" autocomplete="off" />
+                        <input type="text" class="form-control" name="id" id="neon-theme_login_id" placeholder="ID" autocomplete="off" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -86,11 +86,11 @@
                     </button>
                 </div>
             </form>
-            <div class="login-bottom-links">
-                <a href="#" class="link">Forgot your password?</a>
-                <br />
-                <a href="#">ToS</a> - <a href="#">Privacy Policy</a>
-            </div>
+<%--            <div class="login-bottom-links">--%>
+<%--                <a href="#" class="link">Forgot your password?</a>--%>
+<%--                <br />--%>
+<%--                <a href="#">ToS</a> - <a href="#">Privacy Policy</a>--%>
+<%--            </div>--%>
         </div>
     </div>
 </div>

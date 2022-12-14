@@ -1,0 +1,16 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="layout" template="/WEB-INF/views/base.jsp">
+        <put-attribute name="header"        value="/WEB-INF/views/component/header.jsp" />
+        <put-attribute name="topnavbar"     value="/WEB-INF/views/component/navbar/top-nav.jsp" />
+        <put-attribute name="navbar"        value="/WEB-INF/views/component/navbar/mid-nav.jsp" />
+        <put-attribute name="lnb"           value="/WEB-INF/views/component/navbar/left-nav.jsp" />
+        <put-attribute name="st"            value="/WEB-INF/views/component/navbar/sub-title.jsp" />
+        <put-attribute name="body"          value="" />
+        <put-attribute name="footer"        value="/WEB-INF/views/component/footer.jsp" />
+    </definition>
+</tiles-definitions>

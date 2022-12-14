@@ -38,8 +38,8 @@
     <script src="/ui-component/jqGrid/4.7/plugins/js/ui.multiselect.js"></script>
     <script src="/ui-component/jqGrid/4.7/js/jquery.jqGrid.min.js"></script>
 
-    <script src="/ui-component/select2/4.0.13/js/i18n/ko.js"></script>
     <script src="/ui-component/select2/4.0.13/js/select2.min.js"></script>
+    <script src="/ui-component/select2/4.0.13/js/i18n/ko.js"></script>
 
     <!-- ace settings handler -->
     <script src="/ui-component/ace-theme/js/ace-extra.min.js"></script>
@@ -130,26 +130,26 @@
 </script>
 
 <body>
-    <%--font-awesome test--%>
+<%--font-awesome test--%>
 <%--    <i class="fa fa-user"></i>--%>
 
-    <%--jqGrid test--%>
-    <div style="width: 80%; padding: 20px;">
-        <table id="jqGrid"></table>
-        <div id="jqGrid_pager"></div>
-    </div>
+<%--jqGrid test--%>
+<div style="width: 80%; padding: 20px;">
+    <table id="jqGrid"></table>
+    <div id="jqGrid_pager"></div>
+</div>
 
-<%--    <div style="width: 80%; padding: 20px;">--%>
-<%--        <select id="select2" style="width: 200px;">--%>
-<%--            <option>1</option>--%>
-<%--            <option>2</option>--%>
-<%--            <option>3</option>--%>
-<%--            <option>4</option>--%>
-<%--        </select>--%>
-<%--    </div>--%>
+<div style="width: 80%; padding: 20px;">
+    <select id="select2" style="width: 200px;">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+</div>
 
-    <div style="width: 80%; padding: 20px;">
+<div style="width: 80%; padding: 20px;">
 
-    </div>
+</div>
 </body>
 </html>
